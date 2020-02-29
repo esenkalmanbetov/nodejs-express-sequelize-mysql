@@ -14,7 +14,7 @@ const Sequelize = require("sequelize");
 //   }
 // });
 
-
+const sequelize = new Sequelize('postgres://qrhhuvveqvggwl:883fb7ebc1603c4e55e172b91fb40a4087f72255a7be7ed1564b176f36e58a24@ec2-3-230-106-126.compute-1.amazonaws.com:5432/d5hdlrtrpck956');
 
 const db = {};
 
